@@ -1,0 +1,16 @@
+using System.Collections.Concurrent;
+
+namespace Department.Base.Model.Common
+{
+
+    public static class AsyncLock
+    {
+        private static ConcurrentDictionary<string, Nito.AsyncEx.AsyncLock> _lockMap = new ConcurrentDictionary<string, Nito.AsyncEx.AsyncLock>();
+
+        public static Nito.AsyncEx.AsyncLock GetLockByKey(string key)
+        {
+            return _lockMap.GetOrAdd(key, (x) => new Nito.AsyncEx.AsyncLock());
+        }
+
+    }
+}

@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Emeka.Egbebike\\Documents\\Department Store One Website\\DepartmentStoreOne\\DepartmentStoreOne.Base.Model\\DepartmentStoreOne.Base.Model.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Emeka.Egbebike\\Documents\\Department Store One Website\\DepartmentStoreOne\\DepartmentStoreOne.Base.Model\\DepartmentStoreOne.Base.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emeka.Egbebike\\Documents\\Department Store One Website\\DepartmentStoreOne\\DepartmentStoreOne.Base.Model\\DepartmentStoreOne.Base.Model.csproj",
+        "projectName": "DepartmentStoreOne.Base.Model",
+        "projectPath": "C:\\Users\\Emeka.Egbebike\\Documents\\Department Store One Website\\DepartmentStoreOne\\DepartmentStoreOne.Base.Model\\DepartmentStoreOne.Base.Model.csproj",
+        "packagesPath": "C:\\Users\\Emeka.Egbebike\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emeka.Egbebike\\Documents\\Department Store One Website\\DepartmentStoreOne\\DepartmentStoreOne.Base.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emeka.Egbebike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
